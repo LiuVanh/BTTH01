@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/lva_style.css">
+    <link rel="stylesheet" href="./css/CSS_Image Slider.css">
     <title>Nhóm 2</title>
 </head>
 <body>
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
+  <!--Header/Navigation Bar-->
+  <header>
+    <img class="logo" src="./image/logo-color.png" alt="ảnh logo">   
+    <input type="text" class="search-bar" placeholder="Tìm kiếm">
+    <nav>
+      <ul class="nav___link">
+        <li><a href="#">Mục 1</a></li>
+        <li><a href="#">Mục 2</a></li>
+        <li><a href="#">Mục 3</a></li>
+        <li><a href="#">Mục 4</a></li>
+      </ul>
+    </nav> 
+    <a class="register" href=""><button>Đăng kí</button></a>
+  </header>
+  <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="img1.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+      <img src="./image/slide1.jpg" style="width:100%">
+      <div class="text">Phú Quốc</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="img2.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
+      <img src="./image/slide2.jpg" style="width:100%">
+      <div class="text">Hà Giang</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="img3.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
+      <img src="./image/slide3.jpg" style="width:100%">
+      <div class="text">Nha Trang</div>
     </div>
   
     <!-- Next and previous buttons -->
@@ -34,7 +48,7 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
   <br>
-  
+
   <!-- The dots/circles -->
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
